@@ -19,6 +19,7 @@ DocuQueue converts web pages and HTML into beautifully formatted PDFs via a REST
 
 | Date | Post |
 |------|------|
+| July 7, 2026 | [How to Convert HTML to PDF in Python (2026 Guide)](/blog/how-to-convert-html-to-pdf-python/) |
 | June 26, 2026 | [Why Your Invoices Look Unprofessional (And How to Fix It in 10 Seconds)](/blog/why-your-invoices-look-unprofessional/) |
 
 <br>
