@@ -4,6 +4,7 @@ title: "How to Convert HTML to PDF in Python (2026 Guide)"
 date: 2026-07-07
 categories: ["Engineering", "How-To"]
 tags: ["python", "html-to-pdf", "playwright", "weasyprint", "xhtml2pdf", "pdfkit"]
+description: "Compare Playwright, WeasyPrint, xhtml2pdf, and pdfkit for HTML-to-PDF conversion in Python. When to use each library, and when an API is the better choice."
 ---
 
 Generating a PDF from HTML shows up in almost every backend at some point — an invoice, a signed contract, a report a customer downloads. Python has no shortage of ways to do it, and picking the wrong one usually shows up later, as a slow request, a broken layout, or a dependency nobody wants to touch.

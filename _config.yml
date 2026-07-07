@@ -4,3 +4,9 @@ baseurl: "/blog"
 theme: jekyll-theme-architect
 
 permalink: /:title/
+
+# SEO
+author: "DocuQueue"
+twitter:
+  site: "@docuqueue"
+  creator: "@docuqueue"
