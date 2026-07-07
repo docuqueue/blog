@@ -89,13 +89,21 @@ Capture a screenshot of a campaign page or landing page every time someone fills
 
 ## Setting it up
 
-1. **Get your API key** — sign up at [docuqueue.com/register](https://docuqueue.com/register) (free tier: 50 credits/month)
-2. **Connect DocuQueue in Zapier** — search for "DocuQueue" in the app directory, paste your API key when prompted
-3. **Choose your trigger** — pick the app and event that starts the workflow
-4. **Map your fields** — drag values from the trigger step into the DocuQueue action fields
-5. **Test and turn it on** — Zapier gives you a test run before going live
+We've built a ready-to-use Zap that handles the full flow — trigger, template fill, status check, and PDF download. Start from the template, then customize the trigger for your use case.
 
-No code. No browser install. No server to manage. The PDF generates, and your Zap handles the rest.
+**[Use the Zapier workflow template →](https://zapier.com/editor/370421330/published/370421371/fields)**
+
+Once you've copied the Zap to your account, you'll need to update four placeholders:
+
+1. **Sign up for DocuQueue** — [docuqueue.com/register](https://docuqueue.com/register), free tier with 50 credits/month
+2. **Create a template** in DocuQueue and copy the template ID
+3. **Update the Zap** — four spots to configure:
+   - **Step 2 (Code)** — just for reference, no edits needed
+   - **Step 3 (Webhook POST)** — replace `YOUR_DOCUQUEUE_TEMPLATE_ID` and `YOUR_DOCUQUEUE_API_KEY`
+   - **Step 5 (Webhook GET status)** — replace `YOUR_DOCUQUEUE_API_KEY`
+   - **Step 6 (Webhook GET download)** — replace `YOUR_DOCUQUEUE_API_KEY`
+
+That's it. Four values, one template, and the Zap handles the rest — no code, no browser install, no server to manage.
 
 ## Why not just use a PDF library?
 
