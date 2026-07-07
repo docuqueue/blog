@@ -276,11 +276,9 @@ li strong {
   color: #1a1a2e !important;
 }
 
-/* ── Horizontal Rules ── */
+/* ── Horizontal Rules — hidden ── */
 hr {
-  border: none !important;
-  border-top: 1px solid #e5e7eb !important;
-  margin: 32px 0 !important;
+  display: none !important;
 }
 
 /* ── Blockquotes ── */
@@ -292,11 +290,13 @@ blockquote {
   font-style: italic !important;
 }
 
-/* ── Footer ── */
-footer {
-  border-top: 1px solid #e5e7eb !important;
-  padding-top: 24px !important;
-  margin-top: 60px !important;
+/* ── Section spacing — tighter ── */
+#main-content > *:first-child {
+  margin-top: 0 !important;
+}
+
+#main-content > *:last-child {
+  margin-bottom: 0 !important;
 }
 
 /* ── Mobile responsive ── */

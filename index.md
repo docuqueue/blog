@@ -9,24 +9,12 @@ DocuQueue converts web pages and HTML into beautifully formatted PDFs via a REST
 
 **[Try it free →](https://docuqueue.com/register)**
 
-<br>
-
----
-
-<br>
-
 ## Latest Posts
 
 | Date | Post |
 |------|------|
 | July 7, 2026 | [How to Convert HTML to PDF in Python (2026 Guide)](/blog/how-to-convert-html-to-pdf-python/) |
 | June 26, 2026 | [Why Your Invoices Look Unprofessional (And How to Fix It in 10 Seconds)](/blog/why-your-invoices-look-unprofessional/) |
-
-<br>
-
----
-
-<br>
 
 ## What is DocuQueue?
 
@@ -39,11 +27,5 @@ DocuQueue converts web pages and HTML into beautifully formatted PDFs via a REST
 | **Pricing** | Free tier (50 credits/mo), Starter $9/mo, Pro $29/mo, Business $99/mo |
 
 **[View all templates →](https://docuqueue.com/templates)** | **[Read the API docs →](https://docuqueue.com/docs)** | **[GitHub →](https://github.com/docuqueue/docuqueue-blog)**
-
-<br>
-
----
-
-<br>
 
 *Template has authority. Your documents should too.*

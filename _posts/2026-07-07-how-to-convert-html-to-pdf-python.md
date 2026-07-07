@@ -157,6 +157,4 @@ And for generating many at once — end of month, end of cohort, end of a batch 
 - **Rendering JavaScript-heavy pages in production, at scale:** either Playwright with real infrastructure planning around it, or an API that runs the browser for you.
 - **Recurring business documents (invoices, certificates, contracts) from structured data:** skip HTML generation entirely and fill a template directly — it's less code to maintain and there's no rendering layer to keep patched.
 
----
-
 *DocuQueue converts URLs and HTML to PDF, and fills 6 professional templates (invoice, contract, certificate, letter, report, shipping label) with your own data via API. [Try it free](https://docuqueue.com/register) — 50 credits/month, no credit card required.*

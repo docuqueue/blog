@@ -14,8 +14,6 @@ And here's the part that stings: the content is fine. The line items are correct
 
 The problem isn't what's on it. The problem is what it *looks* like.
 
----
-
 That scenario above? You've been on the receiving end of that invoice. But here's the question nobody asks: who's sending it?
 
 You are.
@@ -23,8 +21,6 @@ You are.
 Your clients open your invoices and feel that same low-grade discomfort. They don't articulate it — nobody replies to an invoice saying "the kerning on your line items is off." They just notice. They register it, the same way you register a restaurant with sticky menus or a shop with flickering lights. It doesn't stop them from doing business with you. But it doesn't help.
 
 And the gap between "doesn't help" and "actively hurts" is smaller than you think.
-
----
 
 Your invoice is just the one you notice most, because money is attached. But the pattern runs through everything your business sends.
 
@@ -38,8 +34,6 @@ Every document your business sends is doing two jobs: carrying content, and carr
 
 Most businesses get the content right and leave the signal to chance.
 
----
-
 Back to the invoice. Because this is where the signal has the most immediate consequence.
 
 When your invoice arrives looking like it came from a real finance department — clear hierarchy, aligned columns, professional typography — it gets processed differently. Not because your client is shallow. Because professionalism is a trust shortcut. It's the visual equivalent of showing up on time.
@@ -51,8 +45,6 @@ An invoice that looks like it was typed in Google Docs signals the opposite. Not
 This is why professional invoices get paid faster. Not because of better payment terms or follow-up emails. Because the document itself does the trust work before anyone reads a line item.
 
 The template carries the authority. The content carries the amount. You need both — but only one of them determines whether your invoice gets moved to the "approve" pile or the "get to it later" pile.
-
----
 
 And here's the thing about the signal: you don't have to build it yourself.
 
@@ -66,8 +58,6 @@ You don't make those decisions. They're made. You fill in the blanks.
 
 That's the difference between designing an invoice and *using* one. Designing takes hours and looks like effort. Using takes seconds and looks like authority.
 
----
-
 But let's be honest about why you haven't fixed this yet.
 
 It's not that you don't know your invoices look bad. You've had that thought. You've looked at the PDF you just sent and thought, "this could be better." You closed the tab and sent it anyway.
@@ -80,8 +70,6 @@ That's the real cost. Not the one bad invoice — the pattern of never getting a
 
 You do have your act together. Your invoices just don't say so.
 
----
-
 Here's what the invoice template gives you. Fifteen fields, pre-built, ready to fill in:
 
 Company name, invoice number, issue date, due date. Your client's name and address. Line items with description, quantity, unit price, and amount per line. Subtotal. Tax rate and tax amount. Total. Payment status — paid, pending, overdue.
@@ -93,7 +81,5 @@ You fill in your company name. You add your line items. You download the PDF.
 The difference between the invoice you're sending now and the one you should be sending isn't skill. It isn't budget. It isn't time. It's whether you're starting from a blank page or from something that's already designed to look like it came from a real business.
 
 Template has authority. Your invoice should too.
-
----
 
 *DocuQueue gives you 6 professional templates for invoices, contracts, certificates, letters, reports, and shipping labels. Send a URL or HTML, get back a beautifully formatted PDF. [Try it free](https://docuqueue.com/register) — 50 credits/month, no credit card required.*
