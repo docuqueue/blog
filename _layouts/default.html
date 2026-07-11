@@ -9,6 +9,53 @@
 
 {% seo %}
 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "DocuQueue Blog",
+      "url": "https://www.docuqueue.com/blog/",
+      "description": "Professional PDF generation — templates, APIs, and the art of looking legitimate.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "DocuQueue",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://docuqueue.com/og-image.png"
+        }
+      }
+    }
+    </script>
+
+    {% if page.date %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": {{ page.title | jsonify }},
+      "description": {{ page.description | jsonify }},
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
+      "dateModified": "{{ page.date | date_to_xmlschema }}",
+      "author": {
+        "@type": "Person",
+        "name": "DocuQueue"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "DocuQueue",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://docuqueue.com/og-image.png"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ page.url | absolute_url }}"
+      }
+    }
+    </script>
+    {% endif %}
+
     {% include head-custom.html %}
     {% include gtag.html %}
   </head>
