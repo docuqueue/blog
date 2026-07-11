@@ -5,6 +5,9 @@ theme: jekyll-theme-architect
 
 permalink: /:title/
 
+# Analytics
+google_analytics: G-H1CKJJR7QB
+
 # SEO
 author: "DocuQueue"
 twitter:
