@@ -1,17 +1,22 @@
 ---
 layout: default
-title: "Automate PDF Generation with DocuQueue and Zapier"
+title: "How to Generate PDFs in Zapier (Step-by-Step Guide)"
 date: 2026-07-07
 categories: ["Integrations", "Automation"]
-tags: ["zapier", "automation", "pdf", "workflow", "no-code"]
-description: "Connect DocuQueue to Zapier to auto-generate PDFs from form submissions, Google Sheets, webhooks, and 5,000+ apps — no code required."
+tags: ["zapier", "automation", "pdf", "workflow", "no-code", "pdf-generation", "zapier-integration"]
+description: "Learn how to generate PDF documents in Zapier with DocuQueue. Fill templates from form submissions, Google Sheets, webhooks, and 5,000+ apps — no code required."
+og_image: /assets/images/workflow-automation.jpg
 ---
+
+![Workflow automation diagram showing Zapier connecting apps to DocuQueue for PDF generation](/assets/images/workflow-automation.jpg)
 
 Every time a deal closes, a form gets submitted, or a row is added to a spreadsheet, someone on your team is probably opening a template, filling it in, exporting a PDF, and emailing it. That takes five minutes. Multiply it by fifty transactions a week and you've got a part-time job that nobody signed up for.
 
 Zapier lets you skip all of that. Connect DocuQueue once, build a Zap, and PDFs generate themselves — from invoices to contracts to certificates — the moment the trigger fires.
 
 ## What DocuQueue does on Zapier
+
+![Dashboard showing document generation analytics](/assets/images/dashboard-analytics.jpg)
 
 DocuQueue exposes two actions in Zapier's app directory:
 
@@ -34,6 +39,8 @@ Send structured data to one of DocuQueue's six built-in templates (invoice, cont
 - **API key** — your DocuQueue key
 
 ## Workflows that run themselves
+
+![Document processing pipeline illustration](/assets/images/document-process.jpg)
 
 The combination of DocuQueue + Zapier turns any trigger into a PDF generation event. Here are the ones teams use most:
 
@@ -110,6 +117,32 @@ That's it. Four values, one template, and the Zap handles the rest — no code, 
 If PDF generation is a side feature of your app, sure — a Python library works. But when it's part of a *workflow* — triggered by events across different apps, routed through different tools, running unattended — you don't want to own the rendering pipeline. You want to point a Zap at a template and move on.
 
 DocuQueue handles the browser, the rendering, the fonts, the page breaks. Zapier handles the triggers, the routing, the delivery. You handle the parts that actually need your attention.
+
+## FAQ
+
+### How do I generate a PDF in Zapier?
+
+Add the DocuQueue app to your Zap, choose the **Create Document** event, connect your account with your API key, then point the action at a DocuQueue template and map your trigger data to the template's merge fields. When the Zap runs, the action returns the finished PDF as a file or a hosted URL.
+
+### Does Zapier generate PDFs on its own?
+
+No. Zapier has no native PDF generation. You either fill and export a Google Docs template across several steps, or use a dedicated document app like DocuQueue that does it in a single action.
+
+### Can I generate a PDF in Zapier without code?
+
+Yes. With DocuQueue you describe the template in plain English and map fields through Zapier's field picker. There's no code and no developer involved at any point.
+
+### How do I add my data to the PDF?
+
+Put a JSON object in the **Template Data** field with a value for each merge field in your template. The simplest way is to copy the sample JSON from the **Data** tab in the DocuQueue editor, then replace the static values with fields from a prior step in your Zap.
+
+### Can I email or store the generated PDF?
+
+Yes. Choose the `File` output and the PDF comes back as a binary file. Any later Zapier step that accepts a file, such as Gmail, Outlook, Google Drive, Dropbox or Slack, can pick it up directly.
+
+### How much does it cost?
+
+DocuQueue offers a free tier with 50 credits/month — no credit card required. See the [pricing page](https://docuqueue.com/pricing) for current tiers.
 
 ---
 
