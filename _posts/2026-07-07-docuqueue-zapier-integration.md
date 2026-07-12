@@ -8,7 +8,7 @@ description: "Learn how to generate PDF documents in Zapier with DocuQueue. Fill
 og_image: /assets/images/workflow-automation.jpg
 ---
 
-![Workflow automation diagram showing Zapier connecting apps to DocuQueue for PDF generation](/assets/images/workflow-automation.jpg)
+![Workflow automation diagram showing Zapier connecting apps to DocuQueue for PDF generation](/blog/assets/images/workflow-automation.jpg)
 
 Every time a deal closes, a form gets submitted, or a row is added to a spreadsheet, someone on your team is probably opening a template, filling it in, exporting a PDF, and emailing it. That takes five minutes. Multiply it by fifty transactions a week and you've got a part-time job that nobody signed up for.
 
@@ -16,7 +16,7 @@ Zapier lets you skip all of that. Connect DocuQueue once, build a Zap, and PDFs 
 
 ## What DocuQueue does on Zapier
 
-![Dashboard showing document generation analytics](/assets/images/dashboard-analytics.jpg)
+![Dashboard showing document generation analytics](/blog/assets/images/dashboard-analytics.jpg)
 
 DocuQueue exposes two actions in Zapier's app directory:
 
@@ -40,7 +40,7 @@ Send structured data to one of DocuQueue's six built-in templates (invoice, cont
 
 ## Workflows that run themselves
 
-![Document processing pipeline illustration](/assets/images/document-process.jpg)
+![Document processing pipeline illustration](/blog/assets/images/document-process.jpg)
 
 The combination of DocuQueue + Zapier turns any trigger into a PDF generation event. Here are the ones teams use most:
 
