@@ -89,6 +89,8 @@ The difference between the invoice you're sending now and the one you should be 
 
 Template has authority. Your invoice should too.
 
+**Try it yourself:** Use our [free invoice generator](https://docuqueue.com/tools/free-invoice-generator) to create a professional invoice in seconds. No signup required.
+
 *DocuQueue gives you 6 professional templates for invoices, contracts, certificates, letters, reports, and shipping labels. Send a URL or HTML, get back a beautifully formatted PDF. [Try it free](https://docuqueue.com/register) — 25 credits/month, no credit card required.*
 
 ## Frequently Asked Questions
@@ -114,5 +116,12 @@ With a pre-built template, 10 seconds. Upload your data, fill the fields, downlo
 Yes. DocuQueue templates include fields for company name, invoice number, line items, tax, total, and payment status. You can fill them with any data via the web interface or API.
 
 ---
+
+## Related Resources
+
+- [Free Invoice Generator](https://docuqueue.com/tools/free-invoice-generator) — Create professional invoices in seconds
+- [Invoice Template](https://docuqueue.com/templates/invoice) — Pre-built invoice template with line items
+- [PDF Form Filling API](https://docuqueue.com/pdf-filling-api) — Automate invoice generation programmatically
+- [Bulk PDF Generator](https://docuqueue.com/bulk-pdf-generator) — Generate hundreds of invoices from CSV
 
 *DocuQueue gives you 6 professional templates for invoices, contracts, certificates, letters, reports, and shipping labels. Send a URL or HTML, get back a beautifully formatted PDF. [Try it free](https://docuqueue.com/register) — 25 credits/month, no credit card required.*
