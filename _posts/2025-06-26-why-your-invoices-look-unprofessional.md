@@ -15,6 +15,8 @@ description: "Your invoice content is fine — the problem is what it looks like
 
 You open an invoice from a vendor or freelancer. Before you read a single line item, before you check the amount or the due date, something is already wrong.
 
+![Professional invoice example showing clean layout, aligned columns, and proper visual hierarchy](https://docuqueue.com/legal/assets/invoice.png)
+
 The alignment is off. The font is system default — that sterile sans-serif that says "I didn't think about this." The line items don't line up with the column headers. The subtotal, tax, and total are just numbers stacked at the bottom with no visual hierarchy. Nothing is bold that should be. Everything is the same weight, the same size, the same nothing.
 
 And here's the part that stings: the content is fine. The line items are correct. The math adds up. The dates are right. Everything that *should* be on the invoice *is* on the invoice.
@@ -78,6 +80,8 @@ That's the real cost. Not the one bad invoice — the pattern of never getting a
 You do have your act together. Your invoices just don't say so.
 
 Here's what the invoice template gives you. Fifteen fields, pre-built, ready to fill in:
+
+![W-4 form showing auto-detected fields ready to be filled](https://docuqueue.com/legal/assets/w4-form.png)
 
 Company name, invoice number, issue date, due date. Your client's name and address. Line items with description, quantity, unit price, and amount per line. Subtotal. Tax rate and tax amount. Total. Payment status — paid, pending, overdue.
 
