@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Generate PDFs in Zapier (Step-by-Step Guide)"
+title: "Zapier PDF Generation: Step-by-Step Tutorial (2026)"
 date: 2026-07-07
 categories: ["Integrations", "Automation"]
 tags: ["zapier", "automation", "pdf", "workflow", "no-code", "pdf-generation", "zapier-integration"]

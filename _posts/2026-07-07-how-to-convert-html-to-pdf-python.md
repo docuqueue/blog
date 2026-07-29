@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Convert HTML to PDF in Python (2026 Guide)"
+title: "Python HTML to PDF: 4 Libraries Compared (2026 Guide)"
 date: 2026-07-07
 categories: ["Engineering", "How-To"]
 tags: ["python", "html-to-pdf", "playwright", "weasyprint", "xhtml2pdf", "pdfkit"]
