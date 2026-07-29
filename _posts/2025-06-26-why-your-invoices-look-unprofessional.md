@@ -95,25 +95,30 @@ Template has authority. Your invoice should too.
 
 ## Frequently Asked Questions
 
-### Why do unprofessional invoices get paid slower?
+<details>
+<summary>Why do unprofessional invoices get paid slower?</summary>
+<p>Unprofessional invoices signal indifference to clients. A well-formatted invoice signals that you're the kind of business that pays attention to details. Clients process invoices faster when they look legitimate — it's a trust shortcut.</p>
+</details>
 
-Unprofessional invoices signal indifference to clients. A well-formatted invoice signals that you're the kind of business that pays attention to details. Clients process invoices faster when they look legitimate — it's a trust shortcut.
+<details>
+<summary>How do I make my invoice look professional?</summary>
+<p>Use a pre-built template with proper typography, aligned columns, and visual hierarchy. DocuQueue provides 6 professional templates that you can fill with your data in seconds.</p>
+</details>
 
-### How do I make my invoice look professional?
+<details>
+<summary>What makes an invoice look unprofessional?</summary>
+<p>Common issues include: misaligned columns, system default fonts, inconsistent formatting, no visual hierarchy, and missing payment status. The content may be correct, but poor design signals carelessness.</p>
+</details>
 
-Use a pre-built template with proper typography, aligned columns, and visual hierarchy. DocuQueue provides 6 professional templates that you can fill with your data in seconds.
+<details>
+<summary>How long does it take to fix my invoice design?</summary>
+<p>With a pre-built template, 10 seconds. Upload your data, fill the fields, download the PDF. No design skills required.</p>
+</details>
 
-### What makes an invoice look unprofessional?
-
-Common issues include: misaligned columns, system default fonts, inconsistent formatting, no visual hierarchy, and missing payment status. The content may be correct, but poor design signals carelessness.
-
-### How long does it take to fix my invoice design?
-
-With a pre-built template, 10 seconds. Upload your data, fill the fields, download the PDF. No design skills required.
-
-### Can I customize professional invoice templates?
-
-Yes. DocuQueue templates include fields for company name, invoice number, line items, tax, total, and payment status. You can fill them with any data via the web interface or API.
+<details>
+<summary>Can I customize professional invoice templates?</summary>
+<p>Yes. DocuQueue templates include fields for company name, invoice number, line items, tax, total, and payment status. You can fill them with any data via the web interface or API.</p>
+</details>
 
 ---
 
