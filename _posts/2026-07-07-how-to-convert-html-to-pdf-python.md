@@ -7,6 +7,12 @@ tags: ["python", "html-to-pdf", "playwright", "weasyprint", "xhtml2pdf", "pdfkit
 description: "Compare Playwright, WeasyPrint, xhtml2pdf, and pdfkit for HTML-to-PDF conversion in Python. When to use each library, and when an API is the better choice."
 ---
 
+**TL;DR:** Python has four main HTML-to-PDF options: Playwright (best for JavaScript-heavy pages), WeasyPrint (best for structured documents), pdfkit (simple wrapper), and xhtml2pdf (pure Python). For production use, an API like [DocuQueue](https://docuqueue.com/html-to-pdf) eliminates infrastructure overhead.
+
+*Written by Arun, Founder of [DocuQueue](https://docuqueue.com)*
+
+---
+
 Generating a PDF from HTML shows up in almost every backend at some point — an invoice, a signed contract, a report a customer downloads. Python has no shortage of ways to do it, and picking the wrong one usually shows up later, as a slow request, a broken layout, or a dependency nobody wants to touch.
 
 This guide walks through the main options — when to reach for a browser-based renderer, when a pure-Python library is enough, and when it's worth skipping the infrastructure entirely and calling an API instead.
@@ -158,4 +164,26 @@ And for generating many at once — end of month, end of cohort, end of a batch 
 - **Rendering JavaScript-heavy pages in production, at scale:** either Playwright with real infrastructure planning around it, or an API that runs the browser for you.
 - **Recurring business documents (invoices, certificates, contracts) from structured data:** skip HTML generation entirely and fill a template directly — it's less code to maintain and there's no rendering layer to keep patched.
 
-*DocuQueue converts URLs and HTML to PDF, and fills 6 professional templates (invoice, contract, certificate, letter, report, shipping label) with your own data via API. [Try it free](https://docuqueue.com/register) — 50 credits/month, no credit card required.*
+*DocuQueue converts URLs and HTML to PDF, and fills 6 professional templates (invoice, contract, certificate, letter, report, shipping label) with your own data via API. [Try it free](https://docuqueue.com/register) — 25 credits/month, no credit card required.*
+
+## Frequently Asked Questions
+
+### What is the best Python library for HTML to PDF?
+
+Playwright is best for JavaScript-heavy pages because it uses a real browser engine. WeasyPrint is best for structured documents like invoices and reports. For simple use cases, pdfkit or xhtml2pdf work fine.
+
+### How do I convert HTML to PDF in Python?
+
+Use Playwright for complex pages: `page.pdf(path="output.pdf", format="A4")`. For simpler documents, use WeasyPrint: `weasyprint.HTML(string=html).write_pdf("output.pdf")`. For production use, consider an API like DocuQueue to avoid infrastructure overhead.
+
+### What's the difference between Playwright and WeasyPrint?
+
+Playwright drives a real browser, so it handles JavaScript, dynamic content, and CSS exactly like a user sees it. WeasyPrint is a dedicated HTML/CSS-to-PDF engine — lighter to deploy, better for print-style layouts, but no JavaScript support.
+
+### Can I generate PDFs from HTML without a browser?
+
+Yes. WeasyPrint, pdfkit, and xhtml2pdf are pure-Python libraries that don't require a browser. They're lighter to deploy but may not render JavaScript-heavy pages correctly.
+
+### When should I use an API instead of a Python library?
+
+Use an API when you need to scale beyond a single server, want to avoid managing browser infrastructure, or need features like batch processing, webhooks, and template management. DocuQueue handles all of this with a simple REST API.

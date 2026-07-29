@@ -8,6 +8,12 @@ description: "Learn how to generate PDF documents in Zapier with DocuQueue. Fill
 og_image: /assets/images/workflow-automation.jpg
 ---
 
+**TL;DR:** Zapier + DocuQueue automates PDF generation from any trigger — form submissions, Google Sheets, webhooks, or 5,000+ apps. Set up once, PDFs generate themselves. No code required.
+
+*Written by Arun, Founder of [DocuQueue](https://docuqueue.com)*
+
+---
+
 ![Workflow automation diagram showing Zapier connecting apps to DocuQueue for PDF generation](/blog/assets/images/workflow-automation.jpg)
 
 Every time a deal closes, a form gets submitted, or a row is added to a spreadsheet, someone on your team is probably opening a template, filling it in, exporting a PDF, and emailing it. That takes five minutes. Multiply it by fifty transactions a week and you've got a part-time job that nobody signed up for.
@@ -142,8 +148,32 @@ Yes. Choose the `File` output and the PDF comes back as a binary file. Any later
 
 ### How much does it cost?
 
-DocuQueue offers a free tier with 50 credits/month — no credit card required. See the [pricing page](https://docuqueue.com/pricing) for current tiers.
+DocuQueue offers a free tier with 25 credits/month — no credit card required. See the [pricing page](https://docuqueue.com/pricing) for current tiers.
 
 ---
 
-*DocuQueue converts URLs and HTML to PDF, and fills 6 professional templates (invoice, contract, certificate, letter, report, shipping label) with your own data via API. [Try it free](https://docuqueue.com/register) — 50 credits/month, no credit card required.*
+## Frequently Asked Questions
+
+### What is Zapier PDF generation?
+
+Zapier PDF generation is the process of automatically creating PDF documents from data in other apps. When a trigger fires (like a new form submission or spreadsheet row), Zapier sends the data to a PDF generation service like DocuQueue, which fills a template and returns a completed PDF.
+
+### How do I generate PDFs from Google Sheets in Zapier?
+
+Create a Zap with Google Sheets as the trigger (new row) and DocuQueue as the action (fill template). Map your spreadsheet columns to template fields, and PDFs generate automatically for each new row.
+
+### Can I generate PDFs from form submissions?
+
+Yes. Connect your form tool (Typeform, JotForm, Google Forms, etc.) as the Zapier trigger, then use DocuQueue to fill a PDF template with the form data. The PDF can be emailed, stored in Google Drive, or sent to Slack.
+
+### What templates are available in DocuQueue?
+
+DocuQueue includes 6 professional templates: invoice, contract, certificate, letter, report, and shipping label. You can also upload your own custom templates.
+
+### Is there a free tier for Zapier PDF generation?
+
+Yes. DocuQueue offers 25 free credits/month with no credit card required. Each Zap that generates a PDF uses 1 credit.
+
+---
+
+*DocuQueue converts URLs and HTML to PDF, and fills 6 professional templates (invoice, contract, certificate, letter, report, shipping label) with your own data via API. [Try it free](https://docuqueue.com/register) — 25 credits/month, no credit card required.*
