@@ -5,11 +5,14 @@ date: 2026-07-07
 categories: ["Engineering", "How-To"]
 tags: ["python", "html-to-pdf", "playwright", "weasyprint", "xhtml2pdf", "pdfkit"]
 description: "Compare Playwright, WeasyPrint, xhtml2pdf, and pdfkit for HTML-to-PDF conversion in Python. When to use each library, and when an API is the better choice."
+last_modified_at: 2026-10-17
 ---
 
 **TL;DR:** Python has four main HTML-to-PDF options: Playwright (best for JavaScript-heavy pages), WeasyPrint (best for structured documents), pdfkit (simple wrapper), and xhtml2pdf (pure Python). For production use, an API like [DocuQueue](https://docuqueue.com/html-to-pdf) eliminates infrastructure overhead.
 
 *Written by Arun, Founder of [DocuQueue](https://docuqueue.com)*
+
+*Published July 7, 2026 · Updated October 17, 2026*
 
 ---
 
@@ -192,3 +195,52 @@ And for generating many at once — end of month, end of cohort, end of a batch 
 <summary>When should I use an API instead of a Python library?</summary>
 <p>Use an API when you need to scale beyond a single server, want to avoid managing browser infrastructure, or need features like batch processing, webhooks, and template management. DocuQueue handles all of this with a simple REST API.</p>
 </details>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best Python library for HTML to PDF?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Playwright is best for JavaScript-heavy pages because it uses a real browser engine. WeasyPrint is best for structured documents like invoices and reports. For simple use cases, pdfkit or xhtml2pdf work fine."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I convert HTML to PDF in Python?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use Playwright for complex pages: page.pdf(path=\"output.pdf\", format=\"A4\"). For simpler documents, use WeasyPrint: weasyprint.HTML(string=html).write_pdf(\"output.pdf\"). For production use, consider an API like DocuQueue to avoid infrastructure overhead."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the difference between Playwright and WeasyPrint?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Playwright drives a real browser, so it handles JavaScript, dynamic content, and CSS exactly like a user sees it. WeasyPrint is a dedicated HTML/CSS-to-PDF engine — lighter to deploy, better for print-style layouts, but no JavaScript support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I generate PDFs from HTML without a browser?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. WeasyPrint, pdfkit, and xhtml2pdf are pure-Python libraries that don't require a browser. They're lighter to deploy but may not render JavaScript-heavy pages correctly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When should I use an API instead of a Python library?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use an API when you need to scale beyond a single server, want to avoid managing browser infrastructure, or need features like batch processing, webhooks, and template management. DocuQueue handles all of this with a simple REST API."
+      }
+    }
+  ]
+}
+</script>

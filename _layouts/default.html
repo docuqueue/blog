@@ -35,7 +35,7 @@
       "headline": {{ page.title | jsonify }},
       "description": {{ page.description | jsonify }},
       "datePublished": "{{ page.date | date_to_xmlschema }}",
-      "dateModified": "{{ page.date | date_to_xmlschema }}",
+      "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
       "author": {
         "@type": "Person",
         "name": "DocuQueue"
