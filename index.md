@@ -13,8 +13,9 @@ DocuQueue converts web pages and HTML into beautifully formatted PDFs via a REST
 
 | Date | Post |
 |------|------|
+| October 20, 2026 | [Best MCP Servers for PDF Generation in 2026](/blog/best-mcp-servers-for-pdf-generation/) |
+| July 7, 2026 | [Generate PDFs in Python: Complete Guide 2026](/blog/generate-pdfs-in-python/) |
 | July 7, 2026 | [Automate PDF Generation with DocuQueue and Zapier](/blog/docuqueue-zapier-integration/) |
-| July 7, 2026 | [How to Convert HTML to PDF in Python (2026 Guide)](/blog/how-to-convert-html-to-pdf-python/) |
 | June 26, 2026 | [Why Your Invoices Look Unprofessional (And How to Fix It in 10 Seconds)](/blog/why-your-invoices-look-unprofessional/) |
 
 ## What is DocuQueue?
@@ -25,8 +26,8 @@ DocuQueue converts web pages and HTML into beautifully formatted PDFs via a REST
 | **Input** | URLs or raw HTML |
 | **Output** | Professionally formatted PDFs |
 | **Stack** | FastAPI, Redis, Chromium, Docker |
-| **Pricing** | Free tier (50 credits/mo), Starter $9/mo, Pro $29/mo, Business $99/mo |
+| **Pricing** | Free tier (25 credits/mo), Starter $9/mo, Pro $29/mo, Business $99/mo |
 
-**[View all templates →](https://docuqueue.com/templates)** | **[Read the API docs →](https://docuqueue.com/docs)** | **[GitHub →](https://github.com/docuqueue/docuqueue-blog)**
+**[View all templates →](https://docuqueue.com/templates)** | **[Read the API docs →](https://docuqueue.com/redoc)** | **[GitHub →](https://github.com/docuqueue/blog)**
 
 *Template has authority. Your documents should too.*
