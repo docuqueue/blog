@@ -13,6 +13,7 @@ DocuQueue converts web pages and HTML into beautifully formatted PDFs via a REST
 
 | Date | Post |
 |------|------|
+| Nov 19, 2026 | [Batch PDF Generation: How to Generate PDFs from CSV or Excel](/blog/batch-pdf-generation/) |
 | October 20, 2026 | [Best MCP Servers for PDF Generation in 2026](/blog/best-mcp-servers-for-pdf-generation/) |
 | July 7, 2026 | [Generate PDFs in Python: Complete Guide 2026](/blog/generate-pdfs-in-python/) |
 | July 7, 2026 | [Automate PDF Generation with DocuQueue and Zapier](/blog/docuqueue-zapier-integration/) |

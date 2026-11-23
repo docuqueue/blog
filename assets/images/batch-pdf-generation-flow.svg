@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 240" role="img" aria-label="Batch PDF generation flow: CSV or Excel to template mapping to generated PDFs and ZIP download">
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; }
+      .card { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; }
+      .title { font: 700 18px Arial, sans-serif; fill: #0f172a; }
+      .text { font: 14px Arial, sans-serif; fill: #334155; }
+      .small { font: 12px Arial, sans-serif; fill: #475569; }
+      .accent { fill: #4f46e5; }
+      .accentText { font: 700 13px Arial, sans-serif; fill: #ffffff; }
+      .arrow { stroke: #64748b; stroke-width: 3; fill: none; marker-end: url(#m); }
+    </style>
+    <marker id="m" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#64748b" />
+    </marker>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="240" rx="16"/>
+  <rect class="card" x="40" y="50" width="220" height="140" rx="12"/>
+  <text class="title" x="60" y="85">1. Upload data</text>
+  <text class="text" x="60" y="112">CSV or Excel file</text>
+  <text class="text" x="60" y="134">One row = one PDF</text>
+  <text class="small" x="60" y="160">Headers map to fields</text>
+  <rect class="accent" x="60" y="170" width="120" height="24" rx="12"/>
+  <text class="accentText" x="74" y="186">.csv / .xlsx</text>
+
+  <path class="arrow" d="M270,120 L330,120"/>
+
+  <rect class="card" x="340" y="50" width="220" height="140" rx="12"/>
+  <text class="title" x="360" y="85">2. Map &amp; generate</text>
+  <text class="text" x="360" y="112">Select a template</text>
+  <text class="text" x="360" y="134">Map columns to fields</text>
+  <text class="small" x="360" y="160">Up to 50 docs/request</text>
+  <rect class="accent" x="360" y="170" width="128" height="24" rx="12"/>
+  <text class="accentText" x="374" y="186">1 credit / PDF</text>
+
+  <path class="arrow" d="M570,120 L630,120"/>
+
+  <rect class="card" x="640" y="50" width="280" height="140" rx="12"/>
+  <text class="title" x="660" y="85">3. Download output</text>
+  <text class="text" x="660" y="112">Personalized PDFs</text>
+  <text class="text" x="660" y="134">Track batch status</text>
+  <text class="small" x="660" y="160">Download individually or ZIP</text>
+  <rect class="accent" x="660" y="170" width="142" height="24" rx="12"/>
+  <text class="accentText" x="676" y="186">Batch complete</text>
+</svg>
